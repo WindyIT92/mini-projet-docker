@@ -1,6 +1,8 @@
 services:
   paymybuddy-backend:
-    image: localhost:5000/paymybuddy:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
     container_name: paymybuddy
     restart: always
     depends_on:
@@ -11,7 +13,7 @@ services:
       - paymybuddynetwork
 
   paymybuddydb:
-    image: localhost:5000/mysql:latest
+    image: mysql:latest
     container_name: paymybuddydb
     restart: always
     environment:
