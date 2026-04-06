@@ -77,7 +77,8 @@ Une fois que les étapes précédentes sont faites, il est enfin temps de lancer
 
 SI tout est bon, vous devriez pouvoir accéder à votre application depuis un navigateur via le port 8080 et obtenir ce résultat :
 
-![PayMybuddy proof 1.png](attachment:3e9e46c3-72ea-4307-86a5-45793118b7b9:PayMybuddy_proof_1.png)
+<img width="1494" height="824" alt="PayMybuddy proof 1" src="https://github.com/user-attachments/assets/001d7b1c-b4a5-4c3e-a82e-7fadd8736033" />
+
 
 ## **Orchestration avec Docker Compose**
 
@@ -95,7 +96,8 @@ On va dans un premier temps préparer l’environnement après que le premier te
 
 En attendant 10 secondes minimum, vous devrez de nouveau pouvoir accéder à l’application sur un navigateur via le port 8080 et obtenir ce résultat :
 
-![PayMybuddy proof 2.png](attachment:dd8f016b-e9db-4977-8aa6-7c3dfd0d22f2:PayMybuddy_proof_2.png)
+<img width="1077" height="683" alt="PayMybuddy proof 2" src="https://github.com/user-attachments/assets/348a0a05-b2e4-4887-be81-f346897e0c77" />
+
 
 ## Docker registry
 
@@ -122,4 +124,5 @@ Une fois que les images sont poussées, on utilisera dorénavant ces images dans
 
 Si les images du docker registry sont bel et bien prises en compte, vous devrez de nouveau pouvoir accéder à l’application sur un navigateur via le port 8080 et obtenir ce résultat :
 
-![PayMybuddy proof 3.png](attachment:0d85b053-ee8e-48b8-a07c-85eb672041a2:PayMybuddy_proof_3.png)
+<img width="1168" height="757" alt="PayMybuddy proof 3" src="https://github.com/user-attachments/assets/9c907de4-8096-4062-a81f-d4b019f2041c" />
+
