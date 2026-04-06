@@ -50,7 +50,7 @@ L'application PayMyBuddy est une application Java qui utilise MySQL comme base d
 
 ### Création de l’image et paramétrage réseau
 
-Dans un premier temps, vous allez créer l’application PayMyBuddy qui s’appuie sur Spring Boot & Maver :
+Dans un premier temps, vous allez créer l’application PayMyBuddy qui s’appuie sur Spring Boot & Maven :
 
 1. Installez le JDk et maven sous la VM Ubuntu `sudo apt install openjdk-17-jre-headless maven`
 2. Après s’être déplacer dans le dossier mini-projet-docker, on construit de l'application avec la commande  `mvn clean install`
